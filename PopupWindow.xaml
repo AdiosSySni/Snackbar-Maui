@@ -4,37 +4,13 @@
            xmlns:mct="clr-namespace:CommunityToolkit.Maui.Views;assembly=CommunityToolkit.Maui"
            x:Class="MauiApp10.PopupWindow"
            CanBeDismissedByTappingOutsideOfPopup="True"
-           
-           Size="600, 600">
-    <!--<VerticalStackLayout
-        BackgroundColor="AliceBlue"
-        Spacing="20">
-        <HorizontalStackLayout
-            x:Name="HSL"
-            HorizontalOptions="CenterAndExpand"
-            >
-            <Image 
-                x:Name="image" 
-                Source="{Binding food.Source}" 
-                HeightRequest="350"
-                WidthRequest="400"></Image>
-        </HorizontalStackLayout>
-        <Label 
-            FontSize="28"
-            Text="Выберите спектр товаров"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-        <HorizontalStackLayout
-            Spacing="40"
-            HorizontalOptions="Center">
-            <Button Clicked="Button_Clicked" 
-                    TextColor="Black"  
-                    BackgroundColor="Bisque" 
-                    Text="Ok" 
-                    HeightRequest="60" 
-                    WidthRequest="60"/>
-        </HorizontalStackLayout>
-       
+           Size="300, 300">
 
-    </VerticalStackLayout>-->
+    <HorizontalStackLayout
+        HorizontalOptions="Center">
+        <Label 
+            Text="This is Popup"/>
+    </HorizontalStackLayout>
+   
+    
 </mct:Popup>

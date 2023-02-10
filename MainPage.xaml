@@ -7,11 +7,32 @@
         Margin="0, 20, 0, 0"
         Spacing="15" 
         HorizontalOptions="Center">
-        <Button x:Name="btn" 
-                Clicked="Button_Clicked3" 
+        <Button x:Name="btn1" 
+                Clicked="buttonToast"
+                Text="Show toast" 
+                TextColor="Black" 
+                BackgroundColor="AntiqueWhite"></Button>
+        
+        <Button x:Name="btn2" 
+                Clicked="buttonToast"
+                Text="Show toast" 
+                TextColor="Black" 
+                BackgroundColor="AntiqueWhite"></Button>
+        
+        <Button x:Name="bt3" 
+                Clicked="buttonPopup"
+                Text="Show popup" 
+                TextColor="Black" 
+                BackgroundColor="AntiqueWhite"></Button>
+        
+        <Button x:Name="btn4" 
+                Clicked="buttonSnackbar"
                 Text="Show snackbar" 
                 TextColor="Black" 
                 BackgroundColor="AntiqueWhite"></Button>
-       
+
+
     </VerticalStackLayout>
+
+  
 </ContentPage>

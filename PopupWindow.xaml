@@ -9,7 +9,9 @@
     <HorizontalStackLayout
         HorizontalOptions="Center">
         <Label 
-            Text="This is Popup"/>
+            Text="Вы выйграли"/>
+        <Button Text="Yes" Clicked="ButtonYes"/>
+        <Button Text="No" Clicked="ButtonNo"/>
     </HorizontalStackLayout>
    
     
